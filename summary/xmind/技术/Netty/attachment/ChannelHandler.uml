@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>io.netty.channel.ChannelHandler</OriginalElement>
+  <nodes>
+    <node x="534.0" y="200.0">io.netty.channel.ChannelOutboundHandlerAdapter</node>
+    <node x="357.5" y="100.0">io.netty.channel.ChannelHandlerAdapter</node>
+    <node x="715.0" y="100.0">io.netty.channel.ChannelOutboundHandler</node>
+    <node x="100.0" y="300.0">io.netty.channel.SimpleChannelInboundHandler</node>
+    <node x="94.0" y="200.0">io.netty.channel.ChannelInboundHandlerAdapter</node>
+    <node x="0.0" y="100.0">io.netty.channel.ChannelInboundHandler</node>
+    <node x="399.5" y="0.0">io.netty.channel.ChannelHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.netty.channel.ChannelOutboundHandlerAdapter" target="io.netty.channel.ChannelHandlerAdapter">
+      <point x="-108.0" y="-25.0" />
+      <point x="642.0" y="175.0" />
+      <point x="609.5" y="175.0" />
+      <point x="84.0" y="25.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelOutboundHandler" target="io.netty.channel.ChannelHandler">
+      <point x="0.0" y="-25.0" />
+      <point x="889.0" y="75.0" />
+      <point x="609.5" y="75.0" />
+      <point x="84.0" y="25.0" />
+    </edge>
+    <edge source="io.netty.channel.SimpleChannelInboundHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-25.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelOutboundHandlerAdapter" target="io.netty.channel.ChannelOutboundHandler">
+      <point x="108.0" y="-25.0" />
+      <point x="858.0" y="175.0" />
+      <point x="889.0" y="175.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInboundHandler" target="io.netty.channel.ChannelHandler">
+      <point x="0.0" y="-25.0" />
+      <point x="168.0" y="75.0" />
+      <point x="441.5" y="75.0" />
+      <point x="-84.0" y="25.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInboundHandlerAdapter" target="io.netty.channel.ChannelHandlerAdapter">
+      <point x="105.0" y="-25.0" />
+      <point x="409.0" y="175.0" />
+      <point x="441.5" y="175.0" />
+      <point x="-84.0" y="25.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInboundHandlerAdapter" target="io.netty.channel.ChannelInboundHandler">
+      <point x="-105.0" y="-25.0" />
+      <point x="199.0" y="175.0" />
+      <point x="168.0" y="175.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelHandlerAdapter" target="io.netty.channel.ChannelHandler">
+      <point x="0.0" y="-25.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="531.5" y="175.0" />
+  <SelectedNodes>
+    <node>io.netty.channel.ChannelHandler</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
